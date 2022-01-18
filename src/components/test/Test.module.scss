@@ -1,0 +1,53 @@
+@import "./../../variables";
+%margin { margin: 1px; }
+%border {
+  border: 1px solid #E1E1E1;
+  box-sizing: border-box;
+  border-radius: 12px;
+ }
+
+  .testContainer {
+    font-family: $font-family-lato;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    @extend %border;
+    height: 83px;
+    margin: 20px;
+    padding: 22px 15px;
+  }
+
+  .leftText h4, .leftText p {
+    margin: 1px;
+  }
+
+  .leftText {
+    h4 {
+      color: $color-black;
+      font-size: 18px;
+      font-weight: bold;
+      @extend %margin;
+    }
+    p {
+      color: $color-black;
+      font-size: 14px;
+      font-weight: normal;
+      @extend %margin;
+    }
+  }
+
+  .startBtn {
+    border: 1px solid $color-orange;
+    box-sizing: border-box;
+    border-radius: 12px;
+    color: $color-orange;
+    width: 212px;
+    height: 40px;
+  }
+
+.leftText span {
+  color: $color-orange;
+}
+
+

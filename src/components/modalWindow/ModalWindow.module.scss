@@ -1,0 +1,15 @@
+.events {
+    list-style-type: none;
+    padding: 0px;
+    .day span {
+        display: block;
+    }
+    .day {
+        white-space: nowrap;
+        // .content {
+        //     font-weight: bold;
+        //     font-size: 18px;
+        //     line-height: 120%;
+        // }
+    }
+}

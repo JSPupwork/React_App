@@ -1,0 +1,10 @@
+@import "./../../variables";
+
+  .topicContainer {
+    font-family: $font-family-lato;
+    color: $color-black;
+    margin: 16px;
+    border: 1px solid $color-input-border;
+    border-radius: 12px;
+  }
+

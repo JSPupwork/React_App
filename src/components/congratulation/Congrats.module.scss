@@ -1,0 +1,175 @@
+@import "../../variables.scss";
+
+
+.container {
+  width: 100%;
+  padding-bottom: 237px;
+  background-color:#3f3f3f;
+
+  .innerContainer {
+    margin-top: 24px;
+    width: 554px;
+    margin: 64px auto;
+    background-color: $color-white;
+    text-align: center;
+    border-radius: 24px;
+    padding: 40px 48px 48px 48px;
+
+    .congratulations {
+      font-size: 36px;
+      width: 100%;
+
+      font-weight: 800;
+      color: $color-orange;
+      font-family: $font-family-lato;
+      margin: 0;
+    }
+
+    .goHome {
+      border-color: $color-orange;
+      margin-top: 24px;
+      background-color: $color-orange;
+      border-radius: 12px;
+      height: 40px;
+      width: 157px;
+      padding: 0;
+      color: white;
+      font-family: $font-family-lato;
+    }
+
+    .goHome:hover {
+      background-color: $color-white;
+      border-color: $color-orange;
+      color: $color-orange;
+
+      box-shadow: $box-shadow;
+    }
+
+    .goHome:focus {
+      background-color: $color-white;
+      border-color: $color-orange;
+      box-shadow: $box-shadow;
+    }
+
+    .text {
+      font-family: $font-family-lato;
+      width: 448px;
+      height: 58px;
+      margin-top: 24px;
+      font-size: 24px;
+      font-weight: 800;
+      line-height: 28px;
+    }
+  }
+
+  @media (max-width: 500px) {
+    .innerContainer {
+      width: 90%;
+      padding: 40px 17px 48px 17px;
+
+      .text {
+        width: 100%;
+      }
+
+      .goHome {
+        margin-top: 70px;
+      }
+
+      .text {
+        font-size: 20px;
+      }
+    }
+  }
+}
+
+@media (max-width: 414px) {
+  .container {
+
+    .innerContainer {
+      width: 90%;
+
+      padding: 40px 17px 48px 17px;
+
+      .text {
+        width: 100%;
+      }
+
+      .goHome {
+        margin-top: 70px;
+      }
+
+      .text {
+        font-size: 20px;
+      }
+    }
+  }
+}
+
+@media (max-width: 411px) {
+  .container {
+    .innerContainer {
+      width: 90%;
+
+      padding: 40px 17px 48px 17px;
+
+      .text {
+        width: 100%;
+      }
+
+      .goHome {
+        margin-top: 70px;
+      }
+
+      .text {
+        font-size: 20px;
+      }
+    }
+  }
+}
+
+@media (max-width: 375px) {
+  .container {
+    .innerContainer {
+      width: 90%;
+      padding: 40px 17px 48px 17px;
+
+      .text {
+        width: 100%;
+      }
+
+      .goHome {
+        margin-top: 70px;
+      }
+
+      .text {
+        font-size: 20px;
+      }
+    }
+  }
+}
+
+@media (max-width: 320px) {
+  .container {
+    .innerContainer {
+      width: 90%;
+      margin: 20px auto;
+      padding: 40px 17px 48px 17px;
+
+      .congratulations {
+        font-size: 33px;
+      }
+
+      .text {
+        width: 100%;
+      }
+
+      .goHome {
+        margin-top: 70px;
+      }
+
+      .text {
+        font-size: 20px;
+      }
+    }
+  }
+}

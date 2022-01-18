@@ -1,0 +1,64 @@
+.calendarHeader {
+    display: flex;
+    justify-content: space-between ;
+    .datePicker {
+        display: flex;
+        align-items: center;
+    }
+}
+.events {
+    list-style-type: none;
+    padding: 0px;
+    .day span {
+        display: block;
+    }
+    .day {
+        white-space: nowrap;
+        .content {
+            cursor: pointer !important;
+            font-weight: bold;
+            font-size: 18px;
+            line-height: 120%;
+        }
+    }
+}
+
+.leftBtn {
+    display: inline-block;
+    margin-right: 8px;
+    width: 32px;
+    height: 32px;
+    background-image: url(../../assets/icons/leftBtnActive.svg);
+    &:hover {
+        background-image: url(../../assets/icons/leftBtnDisabled.svg);
+    }
+}
+.rightBtn {
+    transform: rotate(180deg);
+    margin-right: 16px;
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    background-image: url(../../assets/icons/leftBtnActive.svg);
+    &:hover {
+        background-image: url(../../assets/icons/leftBtnDisabled.svg);
+    }
+}
+
+.date {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 120%;
+    letter-spacing: 0.02em;
+}
+
+.todayBtn {
+    margin-left: 7px;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 120%;
+    letter-spacing: 0.02em;
+    cursor: pointer;
+}

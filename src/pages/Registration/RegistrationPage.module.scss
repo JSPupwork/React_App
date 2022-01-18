@@ -1,0 +1,177 @@
+@import "../../variables.scss";
+
+.container {
+  height:100%;
+  width: 100%;
+
+  padding-top: 80px;
+  padding-bottom: 96px;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color:#3f3f3f ;
+  overflow: auto;
+
+  .wrapper {
+    width: 426px;
+    margin: 0 auto;
+    text-align: center;
+    // border:1px solid yellow;
+    position: relative;
+
+    // border: 1px solid pink;
+    // logo
+    .logo {
+      width: 36%;
+      // width: 156px;
+    }
+
+    .wrapperStepper {
+      width: 100%;
+
+      margin-top: 64px;
+
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0px 50px;
+
+      // step-One
+      .stepOne {
+        height: 4px;
+        width: 31%;
+        border-radius: 12px;
+        background-color: $color-orange;
+      }
+
+      .stepOneActive {
+        height: 4px;
+        width: 31%;
+        border-radius: 12px;
+        background-color: $color-orange;
+      }
+
+      // step-Two
+      .stepTwo {
+        height: 4px;
+        width: 31%;
+        border-radius: 12px;
+        background-color: $color-white;
+      }
+
+      .stepTwoActive {
+        height: 4px;
+        width: 31%;
+        border-radius: 12px;
+        background-color: $color-orange;
+      }
+
+      // stepThree
+      .stepThree {
+        height: 4px;
+        width: 31%;
+        border-radius: 12px;
+        background-color: $color-white;
+      }
+
+      .stepThreeActive {
+        height: 4px;
+        width: 31%;
+        border-radius: 12px;
+        background-color: $color-orange;
+      }
+    }
+    .wrapperStepperInvisible {
+      display:none;
+    }
+
+  }
+}
+
+// media
+
+@media (max-width: 414px) {
+  .container {
+    padding:20px 0;
+      .wrapper {
+        width: 86%;
+
+        .wrapperStepper {
+          margin-top: 25px;
+
+          .stepOne {
+            height: 4px;
+            width: 30%;
+          }
+
+          .stepTwo {
+            height: 4px;
+            width: 30%;
+          }
+
+          .stepThree {
+            height: 4px;
+            width: 30%;
+          }
+        }
+      }
+  }
+}
+
+@media (max-width: 375px) {
+  .container {
+    padding:20px 0;
+
+    .wrapper {
+      width: 80%;
+
+      .wrapperStepper {
+        margin-top: 25px;
+
+        .stepOne {
+          height: 4px;
+          width: 60px;
+        }
+
+        .stepTwo {
+          height: 4px;
+          width: 60px;
+        }
+
+        .stepThree {
+          height: 4px;
+          width: 60px;
+        }
+      }
+    }
+
+  }
+}
+
+@media (max-width: 320px) {
+  .container {
+    padding:20px 0;
+
+    .wrapper {
+      .wrapperStepper {
+        margin-top: 25px;
+
+        .stepOne {
+          height: 4px;
+          width: 45px;
+        }
+
+        .stepTwo {
+          height: 4px;
+          width: 45px;
+        }
+
+        .stepThree {
+          height: 4px;
+          width: 45px;
+        }
+      }
+    }
+  }
+}

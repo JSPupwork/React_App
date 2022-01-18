@@ -1,0 +1,300 @@
+@import "../../variables.scss";
+
+.container {
+  margin-top: 24px;
+  background-color: $color-white;
+
+  border-radius: 24px;
+  padding: 0 48px;
+
+  .innerContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    display: inline-flex;
+
+    padding: 40px 0 48px;
+
+    .containerInput{
+      label {
+        color:$color-orange;
+        font-size: 14px;
+        font-weight: 600;
+        margin-top: 16px;
+        font-family: $font-family-lato;
+      }
+      .uploadItem{
+        svg{
+          color:$color-orange;
+        }
+      }
+
+    }
+
+    // border:1px solid red;
+    .stepOneHeadline {
+      font-size: 27px;
+      width: 70%;
+      line-height: 28, 8px;
+      font-weight: 800;
+      color: $color-black;
+      font-family: $font-family-lato;
+      margin-bottom: 0;
+    }
+
+    .formContainer {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      text-align: start;
+
+      font-family: $font-family-lato;
+      font-size: 14px;
+
+      .labelInput {
+        color: $color-orange;
+        font-family: $font-family-lato;
+        font-weight: 600;
+        font-size: 14px;
+
+        margin-top: 16px;
+      }
+      .labelInputLinkedin{
+        color: $color-orange;
+        font-family: $font-family-lato;
+        font-weight: 600;
+        font-size: 14px;
+
+      }
+
+      // input
+      .input {
+        height: 40px;
+        padding-top: 0;
+     
+        border-radius: 12px;
+        background: $background-input;
+        font-family: $font-family-lato;
+        caret-color: $color-orange;
+      }
+
+      .input[type="text"] {
+        font-size: 16px;
+        font-family: $font-family-lato;
+        color: $color-black;
+      }
+
+      .input:hover {
+        border-color: $color-orange;
+      }
+
+      .input:focus {
+        border-color: $color-orange;
+        box-shadow: $box-shadow;
+      }
+
+      .input::placeholder {
+        font-size: 14px;
+        font-family: $font-family-lato;
+        color: $color-black;
+      }
+
+      .input:focus::placeholder {
+        color: $color-gray;
+      }
+
+      // Uploade
+      .upload {
+        width: 100%;
+        height: 40px;
+        border-radius: 12px;
+        padding: 0 12px 0 13px;
+
+        color: $color-black;
+        border-color: $color-input-border;
+        font-family: $font-family-lato;
+        font-size: 14px;
+        font-weight: 400;
+        background-color: $background-input;
+
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        justify-content: space-between;
+      }
+
+      .upload:hover {
+        border-color: $color-orange;
+        color: $color-black;
+        background-color: $background-input;
+      }
+
+      .upload:focus {
+        border-color: $color-orange;
+        color: $color-gray;
+        box-shadow: $box-shadow;
+      }
+
+      .iconUpload {
+        width: 14px;
+      }
+
+      .wrapperBtn {
+        display: flex;
+        justify-content: space-between;
+
+        .btnNextStep {
+          font-size: 18px;
+          font-family: $font-family-lato;
+           
+          color:white;
+          border-color: $color-orange;
+          background-color: $color-orange;
+
+          margin-top: 48px;
+          padding: 0;
+          border-radius: 12px;
+
+          height: 40px;
+          width: 158px;
+        }
+
+        .btnNextStep:hover {
+          color: $color-orange;
+          border-color: $color-orange;
+          background-color: $color-white;
+
+          box-shadow: $box-shadow;
+        }
+
+        .btnNextStep:focus {
+          background-color: $color-white;
+          border-color: $color-orange;
+          box-shadow: $box-shadow;
+        }
+
+        // Btn-back
+        .btnBack {
+          font-size: 18px;
+          font-family: $font-family-lato;
+          border-color: $color-orange;
+          color: $color-orange;
+          margin-top: 48px;
+          padding: 0;
+          background-color: $color-white;
+          border-radius: 12px;
+          height: 40px;
+          width: 158px;
+        }
+
+        .btnBack:hover {
+          background-color: $color-orange;
+          color:white;
+          border-color: $color-orange;
+          box-shadow: $box-shadow;
+        }
+
+        .btnBack:focus {
+          background-color: $color-orange;
+          border-color: $color-orange;
+          box-shadow: $box-shadow;
+        }
+      }
+    }
+  }
+}
+
+// media-----------------------------
+
+@media (max-width: 414px) {
+  .container {
+    padding: 0 40px;
+
+    .innerContainer {
+      width: 100%;
+      padding: 20px 0 20px;
+
+      .stepOneHeadline {
+        font-size: 24px;
+        width: 100%;
+      }
+
+      .formContainer {
+        .labelInput {
+          margin-top: 10px;
+        }
+      .wrapperBtn{
+        justify-content: space-evenly; 
+        .btnNextStep {
+          width: 45%;
+        }
+        .btnBack {
+          width: 45%;
+        }
+      }
+      }
+    }
+  }
+}
+
+@media (max-width: 375px) {
+  .container {
+    padding: 0 20px;
+   .wrapper{
+    width: 80%;
+    .innerContainer {
+      padding: 20px 0 20px;
+      width: 100%;
+
+    
+      .formContainer {
+        .stepOneHeadline {
+          font-size: 23px;
+          width: 100%;
+        }
+  
+        .labelInput {
+          margin-top: 10px;
+        }
+
+        .wrapperBtn {
+          display: flex;
+          justify-content: space-evenly;
+        }
+      }
+    }
+  }
+  }
+}
+
+@media (max-width: 320px) {
+  .container {
+    padding: 0 20px;
+
+    .innerContainer {
+      padding: 20px 0 20px;
+
+      .stepOneHeadline {
+        font-size: 18px;
+        width: 100%;
+      }
+
+      .formContainer {
+        .labelInput {
+          margin-top: 10px;
+        }
+        .wrapperBtn{
+          justify-content: space-evenly; 
+          .btnNextStep {
+            width: 45%;
+            margin-top: 30px;
+          }
+          .btnBack {
+            width: 45%;
+            margin-top: 30px;
+          }
+        }
+      }
+    }
+  }
+}

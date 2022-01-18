@@ -1,0 +1,19 @@
+@import "../../variables";
+
+html, body, .textWrapper {
+  height: 100%;
+}
+
+.textWrapper {
+  display: flex;
+  position: absolute;
+  top: 50%;
+  left: 40%;
+
+  h1 {
+    color: $color-orange;
+    font-weight: 800;
+    font-size: 24px;
+    margin-top: 56px;
+  }
+}

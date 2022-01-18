@@ -1,0 +1,516 @@
+@import "./variables";
+// button styles
+
+.ant-form-item {
+  margin-bottom: 0;
+}
+
+.ant-input {
+  background-color: $background-input;
+  border-color: $color-input-border;
+  font-family: $font-family-lato;
+  color: $color-black;
+  font-size: 16px;
+
+  ::placeholder {
+    font-size: 14px;
+    font-family: $font-family-lato;
+    color: $color-black;
+  }
+}
+
+.ant-space-align-center {
+  align-items: flex-start;
+}
+
+.ant-input-affix-wrapper:not(.ant-input-affix-wrapper-disabled) {
+  box-shadow: none;
+  border-radius: 12px;
+}
+
+// selector
+
+.ant-select:not(.ant-select-customize-input) {
+  .ant-select-selector {
+    height: 40px;
+    padding-top: 2px;
+    background-color: $background-input;
+    border-color: $color-input-border;
+    font-family: $font-family-lato;
+    border-radius: 12px;
+  }
+}
+
+.ant-select:not(.ant-select-customize-input):hover {
+  .ant-select-selector:hover {
+    border-color: $color-orange;
+  }
+}
+
+.ant-select-focused:not(.ant-select-disabled).ant-select:not(.ant-select-customize-input) .ant-select-selector {
+  border-color: $color-orange;
+  box-shadow: $box-shadow;
+}
+
+.ant-select-selection-placeholder {
+  color: $color-black;
+
+}
+
+// select-icon-arrow
+.ant-select-open {
+  .ant-select-arrow {
+    transform: rotate(180deg) !important;
+    // transition: .3s ease all;
+
+  }
+}
+
+// upload
+.ant-upload {
+  width: 100%;
+}
+
+// якщо забрати  колір бордера буде синій при кліку
+.ant-btn-icon-only.ant-btn-sm {
+  border: none;
+}
+
+.ant-btn {
+  color: $color-orange;
+  border-color: $color-orange;
+  font-weight: 600;
+  font-size: 18px;
+  border-radius: 12px;
+  height: 40px;
+  &:hover {
+    // background: $color-orange;
+    border-color: $color-orange;
+    color: #fff;
+  }
+  &:active {
+    color: $color-orange;
+    border-color: $color-orange;
+  }
+  &:focus-within {
+    color: $color-orange;
+    border-color: $color-orange;
+    background: #fff;
+  }
+}
+.ant-btn-primary {
+  background-color: $color-white;
+  &:hover {
+    background-color: $color-orange;
+    border-color: $color-orange;
+    color: #fff;
+  }
+}
+
+.ant-btn:hover {
+   background: $color-orange;
+  border-color: $color-orange;
+  color: #fff;
+}
+
+.ant-btn:active {
+  color: $color-orange;
+  border-color: $color-orange;
+}
+
+.ant-btn:focus-within {
+  color: $color-orange;
+  border-color: $color-orange;
+  background: #fff;
+}
+
+// input styles
+.ant-input {
+  background-color: $background-input;
+  color: $color-black;
+  font-size: 14px;
+  height: 40px;
+  border-radius: 12px;
+
+  &:hover {
+    border-color: $color-orange;
+  }
+
+  &:focus {
+    border-color: $color-orange;
+    box-shadow: none;
+  }
+}
+
+.ant-input-affix-wrapper > input.ant-input {
+  background-color: $background-input;
+}
+
+  // password
+.ant-input-affix-wrapper {
+  border-color: $color-gray;
+  background-color: $background-input;
+  padding: 2px 11px;
+
+}
+.ant-input-affix-wrapper:not(.ant-input-affix-wrapper-disabled):hover {
+  border-color: $color-orange;
+}
+
+.ant-input-affix-wrapper:focus {
+  border-color: $color-orange;
+}
+.ant-input-affix-wrapper:focus-within{
+  ::placeholder{
+    color:$color-gray;
+  }
+
+}
+
+.ant-input-password {
+  border-color: $color-input-border;
+  background-color: $background-input;
+  caret-color: $color-orange;
+  font-family: $font-family-lato;
+  color: $color-black;
+  border-radius: 12px;
+  height: 40px;
+  ::placeholder {
+    color: $color-black;
+  }
+  ::shadow{
+    color: $color-orange;
+  }
+}
+
+.ant-input-affix-wrapper-disabled:hover {
+  border-color: $color-input-border;
+}
+
+// // icon-correct-password-icon
+.ant-form-item-has-success.ant-form-item-has-feedback .ant-form-item-children-icon {
+  color: $color-orange;
+}
+
+//checkbox
+
+.ant-checkbox+span {
+  padding-right: 0;
+  padding-left: 5px;
+  font-size: 1em;
+}
+
+.ant-checkbox-checked::after {
+  border: none;
+}
+
+.ant-checkbox-inner {
+  border-color: $color-orange;
+}
+
+.ant-input-affix-wrapper>input.ant-input {
+  height: 30px;
+}
+
+.ant-checkbox-checked .ant-checkbox-inner {
+  background-color: $color-orange;
+  border-color: $color-orange;
+}
+
+.ant-checkbox-wrapper:hover .ant-checkbox-inner,
+.ant-checkbox:hover .ant-checkbox-inner,
+.ant-checkbox-input:focus+.ant-checkbox-inner {
+  border-color: $color-orange;
+  box-shadow: none;
+  caret-color: $color-orange;
+}
+
+
+// label input
+.ant-form-vertical .ant-form-item-label {
+  padding: 0;
+}
+
+//collapse styles
+.ant-collapse {
+  background: none;
+  margin: 0;
+  padding: 0;
+  border-radius: 12px;
+}
+
+.ant-collapse-item {
+  .ant-collapse-arrow {
+    top: 25px !important;
+    transition: 0.3s ease all;
+  }
+}
+
+.ant-collapse-item-active {
+  .ant-collapse-arrow {
+    transform: rotate(180deg) !important;
+    transition: 0.3s ease all;
+    top: 25px !important;
+  }
+}
+
+.ant-collapse-header {
+  font-size: 18px;
+  font-weight: 700;
+  color: $color-black;
+}
+
+.ant-collapse-content {
+  color: $color-black;
+  font-size: 14px;
+}
+// callendar styles
+.ant-picker-calendar {
+  margin: 24px;
+  .ant-picker-date-panel {
+    td:nth-last-child(-n+2){
+      background-color: #F4F4F4;;
+    }
+  }
+}
+.ant-picker-calendar-full .ant-picker-panel {
+  th {
+    font-weight: 800;
+    text-align: left;
+    padding-left: 16px !important;
+    border-left: 1px solid $color-gray;
+    border-right: 1px solid $color-gray;
+  }
+  .ant-picker-cell:hover .ant-picker-calendar-date {
+    background-color: transparent !important;
+  }
+  .ant-picker-calendar-date {
+    border: 1px solid $color-gray;
+    margin: -0.5px;
+    padding: 8px;
+    box-sizing: border-box;
+    font-weight: 600;
+    font-size: 12px;
+    &:hover {
+      position: relative;
+      border: 1px solid $color-gray;
+      padding: 8px;
+      z-index: 10;
+      &::after {
+        content: '';
+        display: block;
+        position: absolute;
+        top: -1px;
+        bottom: -1px;
+        left: -1px;
+        right: -1px;
+        border: 1px solid $color-orange;
+        border-radius: 12px;
+        pointer-events: none;
+      }
+    }
+  }
+  .ant-picker-calendar-date-value {
+    margin-left: 6px;
+    text-align: left;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 150%;
+  }
+  .ant-picker-calendar-date-content {
+    overflow: hidden;
+    z-index: 40;
+  }
+}
+.ant-picker-calendar-full .ant-picker-panel .ant-picker-cell-selected .ant-picker-calendar-date, .ant-picker-calendar-full .ant-picker-panel .ant-picker-cell-selected:hover .ant-picker-calendar-date, .ant-picker-calendar-full .ant-picker-panel .ant-picker-cell-selected .ant-picker-calendar-date-today, .ant-picker-calendar-full .ant-picker-panel .ant-picker-cell-selected:hover .ant-picker-calendar-date-today {
+  background: none;
+  border: 1px solid $color-gray;
+  z-index: 10;
+  &::after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: -1px;
+    bottom: -1px;
+    left: -1px;
+    right: -1px;
+    border: 1px solid $color-orange;
+    border-radius: 12px;
+    pointer-events: none;
+  }
+  .ant-picker-calendar-date-value {
+    color: $color-orange;
+  }
+  span {
+    color: $color-orange;
+    font-weight: 600;
+    font-size: 12px;
+  }
+}
+.ant-picker-cell-selected {
+  border-radius: 12px;
+  background-color: $color-white;
+  color: $color-orange;
+}
+// radio buttons styles
+.ant-radio-group { // div -> label -> span -> input
+  border: 1px solid $color-gray;
+  border-radius: 12px;
+  background-color: $background-input;
+  .ant-radio-button-wrapper-checked:not([class*=' ant-radio-button-wrapper-disabled']).ant-radio-button-wrapper:first-child { // Month label active -> span -> input
+    width: 115px;
+    height: 32px;
+    color: $color-white;
+    border: hidden;
+    border-radius: 12px;
+    box-sizing: border-box;
+    background: $color-orange;
+    span:last-child {
+      position: relative;
+      top: 4px;
+      left: 30px;
+    }
+  }
+  .ant-radio-button-wrapper:first-child { // Month label disabled -> span -> input
+    width: 115px;
+    height: 32px;
+    color: $color-orange;
+    border: 0px;
+    border-radius: 12px;
+    background: $background-input;
+    span:last-child {
+      position: relative;
+      top: 4px;
+      left: 30px;
+    }
+  }
+  .ant-radio-button-wrapper-checked:not(.ant-radio-button-wrapper-disabled) { //2-nd label active -> span -> input
+    &::before {
+      display: none;
+    }
+    width: 115px;
+    height: 10px;
+    color: $color-white !important;
+    border: 0px;
+    border-radius: 12px;
+    background: $color-orange !important;
+    span:last-child {
+      position: relative;
+      top: 4px;
+      left: 30px !important;
+    }
+  }
+  .ant-radio-button-wrapper:last-child { //2-nd label disabled -> span -> input
+    &::before {
+      display: none;
+    }
+    width: 115px;
+    height: 32px;
+    color: $color-orange;
+    border: 0px;
+    border-radius: 12px;
+    background: $background-input;
+    span:last-child {
+      position: relative;
+      top: 4px;
+      left: 38px !important;
+    }
+  }
+}
+// modal window styles
+.ant-modal-body p:first-child {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 120%;
+}
+
+//select
+.ant-select:not(.ant-select-customize-input) .ant-select-selector {
+  height: 40px;
+  padding-top: 2px;
+  background-color: $background-input;
+  border-color: $color-input-border !important;
+  font-family: $font-family-lato;
+  border-radius: 12px;
+}
+.ant-select:not(.ant-select-customize-input) .ant-select-selector:hover, .ant-select-selector:focus {
+  border-color: $color-orange;
+}
+.ant-select-focused:not(.ant-select-disabled).ant-select:not(.ant-select-customize-input), .ant-select-selector {
+  border-color: $color-orange !important;
+  box-shadow: $box-shadow;
+}
+
+.ant-select-selection-placeholder {
+  color: $color-black;
+
+}
+
+.ant-select-selector {
+  box-shadow: none;
+}
+
+.ant-select-arrow {
+  color: $color-orange;
+  transition: 0.3s ease all;
+}
+
+.ant-select-open {
+  .ant-select-arrow {
+    transform: rotate(180deg) !important;
+  }
+}
+
+.ant-upload.ant-upload-select.ant-upload-select-picture-card {
+  width: 212px;
+  height: 212px;
+  border-radius: 12px;
+}
+
+.ant-form-vertical .ant-form-item-label>label {
+  padding: 0;
+}
+
+.ant-form-item-label>label.ant-form-item-required:not(.ant-form-item-required-mark-optional):before {
+  display: none;
+}
+
+//upload
+.ant-upload.ant-upload-select.ant-upload-select-text {
+  position: relative;
+
+  :disabled {
+    height: 40px;
+    background-color: $background-input;
+    border: 1px solid $color-input-border;
+    border-radius: 12px;
+  }
+}
+
+ .ant-upload.ant-upload-select.ant-upload-select-text.ant-upload-disabled {
+   height: 40px;
+   background-color: $background-input;
+   border: 1px solid $color-input-border;
+   border-radius: 12px;
+ }
+.ant-row.ant-form-item.ProfilePage_cvContainer__2qWR9.false.ant-form-item-has-success {
+  .ant-upload-list.ant-upload-list-text {
+    position: absolute;
+    bottom: 7px;
+    left: 10px;
+    color: $color-gray !important;
+    width: 315px;
+  }
+}
+
+  .ant-row.ant-form-item.ProfilePage_cvContainer__2qWR9.ProfilePage_headerEdit__hr__T.ant-form-item-has-success {
+    .ant-upload-list.ant-upload-list-text {
+      position: absolute;
+      bottom: 7px;
+      left: 10px;
+      color: $color-gray !important;
+      width: 95%;
+    }
+  }

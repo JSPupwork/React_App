@@ -1,0 +1,172 @@
+[33mcommit e76c3b6f5ac572ac7237b88df83c05cc495d7264[m[33m ([m[1;36mHEAD -> [m[1;32mfeature/#10-Registration-1st-step[m[33m)[m
+Author: Taras Batyuchok <tbatyuchok@gmail.com>
+Date:   Thu Jun 17 15:56:30 2021 +0300
+
+    add-file-variables-override
+
+[33mcommit ada37faabe0a092fe950aed6c0da136dfe1931ae[m
+Author: Taras Batyuchok <tbatyuchok@gmail.com>
+Date:   Thu Jun 17 14:41:07 2021 +0300
+
+    feature/#10-Registration-Step-One
+
+[33mcommit e463739c23f1419841cc1c9cd59277c3c8ba0a22[m
+Merge: 510b2d8 83b8124
+Author: Taras Batyuchok <tbatyuchok@gmail.com>
+Date:   Wed Jun 16 20:17:10 2021 +0300
+
+    merge
+
+[33mcommit 83b8124f1a41f99b061bb975670d9ccae46c8ea0[m[33m ([m[1;31morigin/feature/#10-Registration-1st-step[m[33m)[m
+Author: ihor.kurylov@clikk.app <idSNrY7I3xhB>
+Date:   Wed Jun 16 19:50:35 2021 +0300
+
+    fixed3
+
+[33mcommit 62b26260300324d11dbf7592cd00ed3b6df1a1ec[m
+Author: ihor.kurylov@clikk.app <idSNrY7I3xhB>
+Date:   Wed Jun 16 19:30:24 2021 +0300
+
+    fixed2
+
+[33mcommit 63f4e6fe7be0fc40abef3665a23b0125db259cac[m
+Author: ihor.kurylov@clikk.app <idSNrY7I3xhB>
+Date:   Wed Jun 16 19:27:23 2021 +0300
+
+    fixed
+
+[33mcommit 2d925da9665a38e5a4448bb862a469c3020a36ab[m
+Author: Taras Batyuchok <tbatyuchok@gmail.com>
+Date:   Wed Jun 16 18:41:41 2021 +0300
+
+    stepperRefactor
+
+[33mcommit 64cacf0f6440072e631792c44b1fad9301cf915c[m
+Author: Taras Batyuchok <tbatyuchok@gmail.com>
+Date:   Wed Jun 16 18:41:41 2021 +0300
+
+    stepperRefactor
+
+[33mcommit 510b2d88193e7287848b9de74135df25ab6a2439[m
+Author: Taras Batyuchok <tbatyuchok@gmail.com>
+Date:   Wed Jun 16 18:41:41 2021 +0300
+
+    stepperRefactor
+
+[33mcommit e07e46032bad8a3fb8791d3bf1c3d45e664aec54[m
+Merge: e015413 53165eb
+Author: Roman Fedytskyi <roman.fedytskyi@jetsoftpro.com>
+Date:   Wed Jun 16 08:36:52 2021 +0000
+
+    Merge branch 'feature/14-connect-router' into 'development'
+    
+    Issue #14 connect router
+    
+    See merge request RomanFedytskyi/training-center-crm!4
+
+[33mcommit 53165ebc7c0a42accc49a749704fe718b582cd67[m
+Author: Anastasiia Hevchuk <39774581+Asya18@users.noreply.github.com>
+Date:   Wed Jun 16 10:46:10 2021 +0300
+
+    Changed path in useLocation
+
+[33mcommit a45f0b16c305bf9943f8b03b0347298adf11323b[m
+Author: Anastasiia Hevchuk <39774581+Asya18@users.noreply.github.com>
+Date:   Wed Jun 16 10:43:15 2021 +0300
+
+    Changed path
+
+[33mcommit 786c33732184ec30289d4a3ae503a911b48472c0[m
+Merge: ce92d66 c065329
+Author: Anastasiia Hevchuk <39774581+Asya18@users.noreply.github.com>
+Date:   Wed Jun 16 10:31:06 2021 +0300
+
+    Resolve conflict
+
+[33mcommit ce92d66a4d8bff8689fdc546267815133a1f814a[m
+Author: Anastasiia Hevchuk <39774581+Asya18@users.noreply.github.com>
+Date:   Wed Jun 16 10:24:41 2021 +0300
+
+    Deleted typescript
+
+[33mcommit c065329c1c6211dcbb1826e37db059b7e4d43442[m
+Author: Roman Fedytskyi <roman.fedytskyi@jetsoftpro.com>
+Date:   Wed Jun 16 10:18:38 2021 +0300
+
+    fixed comma issue
+
+[33mcommit 6a8bbbaea22eeb90f6ca4531c28a936166c6d579[m
+Author: Roman Fedytskyi <roman.fedytskyi@jetsoftpro.com>
+Date:   Wed Jun 16 10:16:10 2021 +0300
+
+    fixed problems
+
+[33mcommit 2551135d861706c9f8118c976d41198374b92d18[m
+Merge: 00fb5fc e015413
+Author: Anastasiia Hevchuk <39774581+Asya18@users.noreply.github.com>
+Date:   Wed Jun 16 10:02:45 2021 +0300
+
+    Changed CRLF to LF
+
+[33mcommit 00fb5fc428c123b3b99560a45f3d555df62ed022[m
+Author: Anastasiia Hevchuk <39774581+Asya18@users.noreply.github.com>
+Date:   Tue Jun 15 23:01:16 2021 +0300
+
+    Moved to separate file in common folder and changed the check to the navigation bar
+
+[33mcommit e015413f14bf46ea1f859aa0b46be7a5abc18eac[m
+Author: Roman Fedytskyi <roman.fedytskyi@jetsoftpro.com>
+Date:   Tue Jun 15 19:43:17 2021 +0300
+
+    fixed linter
+
+[33mcommit 7b2aab8d24bf901e39c00a0f3671b1e65415ddd1[m[33m ([m[1;31morigin/feature/14-connect-router[m[33m)[m
+Merge: 2f96c79 08765e9
+Author: Anastasiia Hevchuk <anastasy24101999@gmail.com>
+Date:   Tue Jun 15 15:19:39 2021 +0000
+
+    Merge branch 'development' into 'feature/14-connect-router'
+    
+    # Conflicts:
+    #   src/App.jsx
+
+[33mcommit 08765e92a4a3d8a6d6e440c3769b60101da66253[m
+Merge: 14a5ec8 30ba6f9
+Author: Roman Fedytskyi <roman.fedytskyi@jetsoftpro.com>
+Date:   Tue Jun 15 14:39:49 2021 +0000
+
+    Merge branch 'feature/#2-Create-registration-page-structure' into 'development'
+    
+    Create registration page structure
+    
+    See merge request RomanFedytskyi/training-center-crm!2
+
+[33mcommit 2f96c796805866ba3dd9885c472101d7e4818ef7[m
+Author: Anastasiia Hevchuk <39774581+Asya18@users.noreply.github.com>
+Date:   Tue Jun 15 17:06:04 2021 +0300
+
+    Issue #14 connect router
+
+[33mcommit 30ba6f9773bca1c381b6fe136bd552b0d236ae4e[m[33m ([m[1;31morigin/feature/#2-Create-registration-page-structure[m[33m)[m
+Author: Taras Batyuchok <tbatyuchok@gmail.com>
+Date:   Tue Jun 15 16:02:26 2021 +0300
+
+    correction-App.js-index.js
+
+[33mcommit 93aeeaeb5d8a7081fe9c1ba25b3efc5febe8383a[m
+Author: Taras Batyuchok <tbatyuchok@gmail.com>
+Date:   Tue Jun 15 14:11:47 2021 +0300
+
+    Create registration page structure
+
+[33mcommit 14a5ec80534d09ceefa03c7db7a42edc3758d1ee[m
+Author: Roman Fedytskyi <roman.fedytskyi@jetsoftpro.com>
+Date:   Fri Jun 11 16:37:07 2021 +0300
+
+    Added main files
+
+[33mcommit aab0c7b89915cc8e33fcf37e264ddb3a5dead98d[m[33m ([m[1;31morigin/master[m[33m)[m
+Author: Roman Fedytskyi <roman.fedytskyi@jetsoftpro.com>
+Date:   Fri Jun 11 11:26:10 2021 +0000
+
+    Initial commit
