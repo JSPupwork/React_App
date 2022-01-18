@@ -1,0 +1,206 @@
+@import "../../variables";
+//profile
+:global {
+  .ant-form-item-control {
+    height: 64px;
+  }
+}
+
+.profileForm {
+  margin-left: 24px;
+  margin-top: 24px;
+}
+  .button, .editBtn {
+    margin: 24px 24px 24px 0;
+    width: 212px;
+
+    .cancel {
+      color: $color-orange;
+      background-color: white;
+    }
+  }
+
+  .button.save {
+    color: white;
+    background-color: $color-orange;
+
+    &:hover {
+      background-color: white;
+      color: $color-orange;
+    }
+  }
+
+  label {
+    padding: 0;
+  }
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  transition: background-color 5000s ease-in-out 0s;
+  -webkit-text-fill-color: $color-black !important;
+}
+
+//base info
+.main {
+  display: flex;
+  flex-direction: row;
+  font-family: $font-family-lato;
+  color: $color-black;
+  width: 100%;
+}
+
+.header, .headerOne {
+  font-size: 24px;
+  font-weight: 800;
+}
+.header {
+  margin: 32px 0 16px 0;
+}
+
+.headerEdit {
+  color: $color-gray;
+
+  :hover {
+    border-color: 1px solid $color-input-border;
+  }
+}
+
+.avatarContainer {
+  display: flex;
+  height: 212px;
+  width: 212px;
+  margin-right: 24px;
+}
+
+.baseInfo, .cvLocationWrapper {
+  width: 84%;
+}
+
+.avatarImage, .avatarImageEdit {
+  width: 100%;
+  height: 100%;
+  border-radius: 12px;
+}
+
+.avatarImageEdit {
+  filter: blur(4px);
+  position: relative;
+}
+
+.circleBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  border-radius: 50% !important;
+  height: 32px !important;
+  width: 32px;
+  color: white !important;
+  background-color: $color-orange;
+  right: 16px;
+  bottom: 16px;
+  padding-top: 6px;
+  padding-right: 1px;
+  &:hover {
+    background-color: white !important;
+    color: $color-orange !important;
+  }
+}
+
+.option:hover {
+  background-color: $color-orange;
+  color: white;
+}
+
+.marginTop, .baseContainer  {
+  margin-top: 16px;
+}
+
+.cvContainer, .fullName {
+  margin-right: 24px;
+  width: 29%;
+}
+
+.cvContainer button {
+  width: 100%;
+}
+
+.dropdown {
+  border-radius: 12px;
+  background-color: white;
+  border: 1px solid $color-orange
+}
+
+.baseContainer {
+  display: flex;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.uploadIcon {
+  float: right;
+  padding-right: 10px;
+}
+
+.input {
+  height: 40px;
+  background-color: $background-input;
+  border: 1px solid $color-input-border !important;
+  border-radius: 12px;
+}
+
+.input:hover, .locationInput:hover {
+  border: 1px solid $color-orange !important;
+  background-color: $color-white !important;
+  border-radius: 12px;
+}
+
+.inputDisabled {
+  background-color: $background-input !important;
+  color: $color-gray;
+  border-radius: 12px;
+}
+
+  //learning info
+.learningCourse, .learningLevel {
+  margin: 16px 24px 32px 0;
+
+  label {
+    color: $color-gray;
+  }
+}
+
+.learningCourse {
+  width: 49%;
+}
+
+.learningSelect, .level {
+  width: 100%;
+}
+
+//contacts
+.marginRight, .learningLevel {
+  margin-right: 24px;
+  width: 24%;
+}
+
+.ant-form-item-label {
+  color: #B5B5B5;
+}
+
+.orangeLabel {
+  width: 24%;
+  label {
+    color: $color-orange;
+  }
+}
+
+  .headerEdit label {
+    color: $color-gray;
+  }
+
+  .contactsLabel {
+    color: $color-orange;
+  }
